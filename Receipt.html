@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel= "stylesheet" href= "edit profile_admin.css">
+    </head>
+   
+    <body>
+        <div class=" hero">
+        <nav>
+            <img src="images/logo2 (1).png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="images1/user.png" class="user-pic" onclick="togglemenu()">
+            <div class="sub-menu-wrap" id="submenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="images1/user.png">
+                        <h3>X PERSON</h3>
+                    </div>
+                    <hr>
+                    <a href="" class="sub-menu-link">
+                        <img src="images1/profile.png">
+                        <p>Edit profile</p>
+                        <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="images1/setting.png">
+                        <p>Settings</p>
+                        <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="images1/help.png">
+                        <p>Help & support</p>
+                        <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="images1/logout.png">
+                        <p>Logout</p>
+                        <span></span>
+                    </a>
+                </nav>
+
+                <div class="sidebar">
+    
+                    <ul class="nav-links">
+                      <li>
+                        <a href="profile.html" class="active">
+                          <i class="bx bx-grid-alt"></i>
+                          <span class="links_name">Profile</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="bx bx-box"></i>
+                          <span class="links_name">Cancellation</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="bx bx-list-ul"></i>
+                          <span class="links_name">Receipt</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="feedback1.html">
+                          <i class="bx bx-pie-chart-alt-2"></i>
+                          <span class="links_name">Feedback</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="bx bx-coin-stack"></i>
+                          <span class="links_name">Recharge amount</span>
+                        </a>
+                      </li>
+                      <li>
+
+                    </ul>
+                </div>
+                
+
+
+
+
+    
+ 
+        
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="well col-xs-10 col-sm-10 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-3">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6 text-right">
+                                    <p>
+                                        <em>Date: </em>
+                                    </p>
+                                    <p>
+                                        <em>Receipt #: </em>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="text-center">
+                                    <h1>Receipt</h1>
+                                </div>
+                                </span>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>purchased book name</th>
+                                            <th>#</th>
+                                            <th class="text-center">Price</th>
+                                            <th class="text-center">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>   </td>
+                                            <td>   </td>
+                                            <td class="text-right">
+                                            <p>
+                                                <strong>Subtotal: </strong>
+                                            </p>
+                                            <p>
+                                                <strong>Tax: </strong>
+                                            </p></td>
+                                            <td class="text-center">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>   </td>
+                                            <td>   </td>
+                                            <td class="text-right"><h4><strong>Total: </strong></h4></td>
+                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button type="button" class="btn btn-success btn-lg btn-block"><a href="recharge.html>
+                                    Pay Now  <span class="glyphicon glyphicon-chevron-right"></span></a>
+                                </button></td>
+                            </div>
+                        </div>
+                    </div>
+    
+<script>
+    let submenu = document.getElementById("submenu");
+    function togglemenu(){
+        submenu.classList.toggle("open-menu");
+    }
+</script>
+
+   
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel= "stylesheet" href="edit profile.css">
+    </head>
+
+    <body>
+        <div class=" hero">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="book.html">Books</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <img src="images1/user.png" class="user-pic" onclick="togglemenu()">
+
+                <div class="sub-menu-wrap" id="submenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="images1/user.png">
+                            <h3>X PERSON</h3>
+                        </div>
+                        <hr>
+                        <a href="edit profile.html" class="sub-menu-link">
+                            <img src="images1/profile.png">
+                            <p>Edit profile</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="images1/setting.png">
+                            <p>Settings</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="images1/help.png">
+                            <p>Help & support</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="images1/logout.png">
+                            <p>Logout</p>
+                            <span></span>
+                        </a>
+                    </div>
+
+                </div>
+            </nav>
+
+        
+<script>
+    let submenu = document.getElementById("submenu");
+    function togglemenu(){
+        submenu.classList.toggle("open-menu");
+    }
+</script>
+<table cellspacing="20" style="margin-top:auto;margin-bottom;margin-left:auto;margin-right:auto">
+<br>
+<caption style="text-align:center;font-size:20px"><h1>FANTASY</h1></caption><br>
+<br><br>
+<thead>
+<tr>
+    <th >code Id</th>
+    
+    <th>Book Title</th>
+    <th>Author(s)</th>
+    <th>verify</th>
+    
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>121</td>
+    <td> The Arabian Nights: Tales of Thousand Nights and a Night - Vol. 1</td>
+    <td>Richard F. Burton </td>
+    <td><button style="background-color:green"; type="button"><a href="purchase.html">Purchase</a></button>
+          <button style="background-color:red"; type="button"><a href="cancel.html">Cancel</a></button></td>   
+        
+        </tr>
+<tr>
+    <td>126</td>
+    <td> Through the Looking-Glass </td>
+    <td>Lewis Carroll</td>
+    <td><button style="background-color:green"; type="button"><a href="pur1.html">Purchase</a></button>   <button style="background-color:red"; type="button"><a href="cancel.html">Cancel</a></button></td>
+</tr>
+<tr>
+    <td>123</td>
+    <td> Five Children and It</td>
+    <td> Edith Nesbit</td>
+    <td><button style="background-color:green"; type="button"><a href="pur2.html">Purchase</a></button>   <button style="background-color:red"; type="button"><a href="cancel.html">Cancel</a></button></td>
+</tr>
+
+<!-- additional table rows and data
+are stored in the tbody element -->
+</tbody>
+</table></div>
+    </body>
+</html>

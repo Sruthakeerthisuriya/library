@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel= "stylesheet" href="edit profile.css">
+    </head>
+
+    <body>
+        <div class=" hero">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="book1.html">Books</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <img src="images1/user.png" class="user-pic" onclick="togglemenu()">
+
+                <div class="sub-menu-wrap" id="submenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="images1/user.png">
+                            <h3>X PERSON</h3>
+                        </div>
+                        <hr>
+                        <a href="edit profile.html" class="sub-menu-link">
+                            <img src="images1/profile.png">
+                            <p>Edit profile</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="images1/setting.png">
+                            <p>Settings</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="images1/help.png">
+                            <p>Help & support</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="images1/logout.png">
+                            <p>Logout</p>
+                            <span></span>
+                        </a>
+                    </div>
+
+                </div>
+            </nav>
+<br>
+<br>
+<h1 style="text-align:center"> BOOK CATEGORY</h1>
+    <br><br><br>
+    <p style="text-align:center">
+    <a href="classics.html">Classics</a><br>
+    <a href="sci-fi.html">Sci-Fi</a><br>
+    <a href="fanatsy.html">Fantasy</a><br>
+    <a href="crime.html">Crime and Mystery</a><br>
+    <a href="book1.html">Programming Books</a><br>
+    </p>
+    </centre>
+        </div>
+
+<script>
+    let submenu = document.getElementById("submenu");
+    function togglemenu(){
+        submenu.classList.toggle("open-menu");
+    }
+</script><br>
+
+    </body>
+</html>
